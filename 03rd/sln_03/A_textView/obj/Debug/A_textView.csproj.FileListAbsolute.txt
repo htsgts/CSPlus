@@ -1,0 +1,10 @@
+C:\Users\YUHAN\source\repos\sln_03\A_textView\bin\Debug\A_textView.exe.config
+C:\Users\YUHAN\source\repos\sln_03\A_textView\bin\Debug\A_textView.exe
+C:\Users\YUHAN\source\repos\sln_03\A_textView\bin\Debug\A_textView.pdb
+C:\Users\YUHAN\source\repos\sln_03\A_textView\obj\Debug\A_textView.csproj.AssemblyReference.cache
+C:\Users\YUHAN\source\repos\sln_03\A_textView\obj\Debug\A_textView.Form1.resources
+C:\Users\YUHAN\source\repos\sln_03\A_textView\obj\Debug\A_textView.Properties.Resources.resources
+C:\Users\YUHAN\source\repos\sln_03\A_textView\obj\Debug\A_textView.csproj.GenerateResource.cache
+C:\Users\YUHAN\source\repos\sln_03\A_textView\obj\Debug\A_textView.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\source\repos\sln_03\A_textView\obj\Debug\A_textView.exe
+C:\Users\YUHAN\source\repos\sln_03\A_textView\obj\Debug\A_textView.pdb

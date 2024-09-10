@@ -1,0 +1,10 @@
+D:\Study_A\03rd\sln_03\A_RBMsg\bin\Debug\A_RBMsg.exe.config
+D:\Study_A\03rd\sln_03\A_RBMsg\bin\Debug\A_RBMsg.exe
+D:\Study_A\03rd\sln_03\A_RBMsg\bin\Debug\A_RBMsg.pdb
+D:\Study_A\03rd\sln_03\A_RBMsg\obj\Debug\A_RBMsg.csproj.AssemblyReference.cache
+D:\Study_A\03rd\sln_03\A_RBMsg\obj\Debug\A_RBMsg.Form1.resources
+D:\Study_A\03rd\sln_03\A_RBMsg\obj\Debug\A_RBMsg.Properties.Resources.resources
+D:\Study_A\03rd\sln_03\A_RBMsg\obj\Debug\A_RBMsg.csproj.GenerateResource.cache
+D:\Study_A\03rd\sln_03\A_RBMsg\obj\Debug\A_RBMsg.csproj.CoreCompileInputs.cache
+D:\Study_A\03rd\sln_03\A_RBMsg\obj\Debug\A_RBMsg.exe
+D:\Study_A\03rd\sln_03\A_RBMsg\obj\Debug\A_RBMsg.pdb
