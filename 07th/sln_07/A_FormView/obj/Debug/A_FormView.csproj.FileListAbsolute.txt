@@ -1,0 +1,12 @@
+D:\Study_A\07th\sln_07\A_FormView\bin\Debug\A_FormView.exe.config
+D:\Study_A\07th\sln_07\A_FormView\bin\Debug\A_FormView.exe
+D:\Study_A\07th\sln_07\A_FormView\bin\Debug\A_FormView.pdb
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.csproj.AssemblyReference.cache
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.Form1.resources
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.Form2.resources
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.Form3.resources
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.Properties.Resources.resources
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.csproj.GenerateResource.cache
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.csproj.CoreCompileInputs.cache
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.exe
+D:\Study_A\07th\sln_07\A_FormView\obj\Debug\A_FormView.pdb
