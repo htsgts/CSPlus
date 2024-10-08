@@ -47,9 +47,10 @@
             // lblResult
             // 
             this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(11, 8);
+            this.lblResult.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblResult.Location = new System.Drawing.Point(51, 26);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(29, 12);
+            this.lblResult.Size = new System.Drawing.Size(39, 20);
             this.lblResult.TabIndex = 0;
             this.lblResult.TabStop = true;
             this.lblResult.Text = "결과";
