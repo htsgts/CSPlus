@@ -37,12 +37,14 @@ namespace A_FileView
                 threadFileView.Start(this.fbdFolder.SelectedPath);
             }
         }
+
         private void ItemsClear()
         {
             DirCount = 0;
             FileCount = 0;
             this.lvFile.Items.Clear();
         }
+
         private void FileView(object path)
         {
             DirCount++;
@@ -108,16 +110,19 @@ namespace A_FileView
                 threadFileView.Start(this.fbdFolder.SelectedPath);
             }
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             OnFile = new OnDelegateFile(FileResult);
         }
+
         private void FileResult(string fp, string fn, string fl, string fc)
         {
             string fSize = GetFileSize(Convert.ToDouble(fl));
             this.lvFile.Items.Add(new ListViewItem(new string[] { fp, fn, fc, fSize }));
             this.tsslblResult.Text = String.Format("폴더 : {0} 개, 파일 : {1} 개", DirCount, FileCount);
         }
+
         private string GetFileSize(double byteCount)
         {
             string size = "0 Bytes";
