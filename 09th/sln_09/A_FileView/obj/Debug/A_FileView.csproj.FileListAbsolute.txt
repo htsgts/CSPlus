@@ -1,0 +1,10 @@
+D:\Study_A\09th\sln_09\A_FileView\bin\Debug\A_FileView.exe.config
+D:\Study_A\09th\sln_09\A_FileView\bin\Debug\A_FileView.exe
+D:\Study_A\09th\sln_09\A_FileView\bin\Debug\A_FileView.pdb
+D:\Study_A\09th\sln_09\A_FileView\obj\Debug\A_FileView.csproj.AssemblyReference.cache
+D:\Study_A\09th\sln_09\A_FileView\obj\Debug\A_FileView.Form1.resources
+D:\Study_A\09th\sln_09\A_FileView\obj\Debug\A_FileView.Properties.Resources.resources
+D:\Study_A\09th\sln_09\A_FileView\obj\Debug\A_FileView.csproj.GenerateResource.cache
+D:\Study_A\09th\sln_09\A_FileView\obj\Debug\A_FileView.csproj.CoreCompileInputs.cache
+D:\Study_A\09th\sln_09\A_FileView\obj\Debug\A_FileView.exe
+D:\Study_A\09th\sln_09\A_FileView\obj\Debug\A_FileView.pdb
