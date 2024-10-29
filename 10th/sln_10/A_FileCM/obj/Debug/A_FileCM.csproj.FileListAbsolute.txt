@@ -1,0 +1,11 @@
+D:\Study_A\10th\sln_10\A_FileCM\bin\Debug\A_FileCM.exe.config
+D:\Study_A\10th\sln_10\A_FileCM\bin\Debug\A_FileCM.exe
+D:\Study_A\10th\sln_10\A_FileCM\bin\Debug\A_FileCM.pdb
+D:\Study_A\10th\sln_10\A_FileCM\obj\Debug\A_FileCM.csproj.AssemblyReference.cache
+D:\Study_A\10th\sln_10\A_FileCM\obj\Debug\A_FileCM.Form1.resources
+D:\Study_A\10th\sln_10\A_FileCM\obj\Debug\A_FileCM.Form2.resources
+D:\Study_A\10th\sln_10\A_FileCM\obj\Debug\A_FileCM.Properties.Resources.resources
+D:\Study_A\10th\sln_10\A_FileCM\obj\Debug\A_FileCM.csproj.GenerateResource.cache
+D:\Study_A\10th\sln_10\A_FileCM\obj\Debug\A_FileCM.csproj.CoreCompileInputs.cache
+D:\Study_A\10th\sln_10\A_FileCM\obj\Debug\A_FileCM.exe
+D:\Study_A\10th\sln_10\A_FileCM\obj\Debug\A_FileCM.pdb
