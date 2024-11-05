@@ -36,6 +36,8 @@
             this.lblSrc = new System.Windows.Forms.Label();
             this.lblDest = new System.Windows.Forms.Label();
             this.gbBox = new System.Windows.Forms.GroupBox();
+            this.rbMove = new System.Windows.Forms.RadioButton();
+            this.rbCopy = new System.Windows.Forms.RadioButton();
             this.lvSrc = new System.Windows.Forms.ListView();
             this.chFileSrc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lvDest = new System.Windows.Forms.ListView();
@@ -45,8 +47,6 @@
             this.tsslbl = new System.Windows.Forms.ToolStripStatusLabel();
             this.tspgrbar = new System.Windows.Forms.ToolStripProgressBar();
             this.tsslblStatus = new System.Windows.Forms.ToolStripStatusLabel();
-            this.rbCopy = new System.Windows.Forms.RadioButton();
-            this.rbMove = new System.Windows.Forms.RadioButton();
             this.gbBox.SuspendLayout();
             this.ssBar.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +67,7 @@
             // 
             this.btnDest.BackColor = System.Drawing.Color.LightSalmon;
             this.btnDest.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnDest.Location = new System.Drawing.Point(474, 99);
+            this.btnDest.Location = new System.Drawing.Point(474, 68);
             this.btnDest.Name = "btnDest";
             this.btnDest.Size = new System.Drawing.Size(100, 25);
             this.btnDest.TabIndex = 1;
@@ -80,7 +80,7 @@
             this.btnRun.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnRun.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnRun.ForeColor = System.Drawing.Color.Red;
-            this.btnRun.Location = new System.Drawing.Point(800, 48);
+            this.btnRun.Location = new System.Drawing.Point(800, 40);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(75, 48);
             this.btnRun.TabIndex = 2;
@@ -98,7 +98,7 @@
             // 
             // txtDest
             // 
-            this.txtDest.Location = new System.Drawing.Point(12, 101);
+            this.txtDest.Location = new System.Drawing.Point(12, 70);
             this.txtDest.Name = "txtDest";
             this.txtDest.ReadOnly = true;
             this.txtDest.Size = new System.Drawing.Size(456, 21);
@@ -126,12 +126,34 @@
             // 
             this.gbBox.Controls.Add(this.rbMove);
             this.gbBox.Controls.Add(this.rbCopy);
-            this.gbBox.Location = new System.Drawing.Point(580, 38);
+            this.gbBox.Location = new System.Drawing.Point(584, 32);
             this.gbBox.Name = "gbBox";
             this.gbBox.Size = new System.Drawing.Size(203, 58);
             this.gbBox.TabIndex = 7;
             this.gbBox.TabStop = false;
             this.gbBox.Text = "선택";
+            // 
+            // rbMove
+            // 
+            this.rbMove.AutoSize = true;
+            this.rbMove.Location = new System.Drawing.Point(106, 21);
+            this.rbMove.Name = "rbMove";
+            this.rbMove.Size = new System.Drawing.Size(71, 16);
+            this.rbMove.TabIndex = 11;
+            this.rbMove.Text = "파일이동";
+            this.rbMove.UseVisualStyleBackColor = true;
+            // 
+            // rbCopy
+            // 
+            this.rbCopy.AutoSize = true;
+            this.rbCopy.Checked = true;
+            this.rbCopy.Location = new System.Drawing.Point(16, 20);
+            this.rbCopy.Name = "rbCopy";
+            this.rbCopy.Size = new System.Drawing.Size(71, 16);
+            this.rbCopy.TabIndex = 10;
+            this.rbCopy.TabStop = true;
+            this.rbCopy.Text = "파일복사";
+            this.rbCopy.UseVisualStyleBackColor = true;
             // 
             // lvSrc
             // 
@@ -197,28 +219,6 @@
             this.tsslblStatus.Name = "tsslblStatus";
             this.tsslblStatus.Size = new System.Drawing.Size(24, 17);
             this.tsslblStatus.Text = "0%";
-            // 
-            // rbCopy
-            // 
-            this.rbCopy.AutoSize = true;
-            this.rbCopy.Checked = true;
-            this.rbCopy.Location = new System.Drawing.Point(16, 20);
-            this.rbCopy.Name = "rbCopy";
-            this.rbCopy.Size = new System.Drawing.Size(71, 16);
-            this.rbCopy.TabIndex = 10;
-            this.rbCopy.TabStop = true;
-            this.rbCopy.Text = "파일복사";
-            this.rbCopy.UseVisualStyleBackColor = true;
-            // 
-            // rbMove
-            // 
-            this.rbMove.AutoSize = true;
-            this.rbMove.Location = new System.Drawing.Point(106, 21);
-            this.rbMove.Name = "rbMove";
-            this.rbMove.Size = new System.Drawing.Size(71, 16);
-            this.rbMove.TabIndex = 11;
-            this.rbMove.Text = "파일이동";
-            this.rbMove.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
