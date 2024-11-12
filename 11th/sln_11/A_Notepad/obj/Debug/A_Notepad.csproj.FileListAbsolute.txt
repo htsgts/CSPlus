@@ -1,0 +1,6 @@
+D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.csproj.AssemblyReference.cache
+D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.Form1.resources
+D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.Form2.resources
+D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.Properties.Resources.resources
+D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.csproj.GenerateResource.cache
+D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.csproj.CoreCompileInputs.cache

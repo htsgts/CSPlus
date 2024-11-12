@@ -16,5 +16,22 @@ namespace A_Notepad
         {
             InitializeComponent();
         }
+
+        private void txtWord_TextChanged(object sender, EventArgs e)
+        {
+            if (this.txtWord.Text == "")
+            {
+                this.btnOk.Enabled = false; //버튼 비활성화 
+            }
+            else
+            {
+                this.btnOk.Enabled = true; //버튼 활성화 
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close(); //폼2 종료
+        }
     }
 }

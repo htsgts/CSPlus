@@ -28,6 +28,7 @@ namespace A_Notepad
             {
                 var msg = this.Text + " 파일의 내용이 변경되었습니다. \r\n 변경된 내용을 저장하시겠습니까 ? ";
                 var dlr = MessageBox.Show(msg, "메모장", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+                
                 if (dlr == DialogResult.Yes)
                 {
                     textSave();
@@ -93,6 +94,7 @@ namespace A_Notepad
             {
                 var msg = this.Text + "파일의 내용이 변경되었습니다. \r\n 변경된 내용을 저장하시겠습니까 ? ";
                 var dlr = MessageBox.Show(msg, "메모장", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+                
                 if (dlr == DialogResult.Yes)
                 {
                     textSave(); // 데이터 저장 메서드 호출 
@@ -125,6 +127,7 @@ namespace A_Notepad
                 this.txtNoteChange = false;
             }
         }
+
         private void txtNote_TextChanged(object sender, EventArgs e)
         {
             this.txtNoteChange = true; //데이터 추가 
@@ -189,8 +192,8 @@ namespace A_Notepad
             {
                 var str = this.sfdFile.FileName; //파일 경로
                 var sw = new StreamWriter(str, false, System.Text.Encoding.Default); //StreamWriter 생성자를 이용하여 개체 생성
-            sw.Write(this.txtNote.Text); // Write 메서드를 이용하여 지정된 경로에 txtNote 컨트롤의 입력 문자열 저장
-            sw.Flush();
+                sw.Write(this.txtNote.Text); // Write 메서드를 이용하여 지정된 경로에 txtNote 컨트롤의 입력 문자열 저장
+                sw.Flush();
                 sw.Close();
                 this.Text = str;
                 this.txtNoteChange = false; //입력 데이터 입력 및 수정 초기화 
@@ -234,6 +237,7 @@ namespace A_Notepad
                 return;
             }
             frm2 = new Form2();
+            
             if (this.txtNote.SelectionLength == 0)
             {
                 frm2.txtWord.Text = this.fWord;
@@ -262,22 +266,21 @@ namespace A_Notepad
                 {
                     updown = str.LastIndexOf(findWord, this.txtNote.SelectionStart - 1);
                 }
-                else
-                {
-                    updown = str.IndexOf(findWord, this.txtNote.SelectionStart + this.txtNote.SelectionLength);
-                }
-
-                if (updown == -1)
-                {
+            }
+            else
+            {
+                updown = str.IndexOf(findWord, this.txtNote.SelectionStart + this.txtNote.SelectionLength);
+            }
+            if (updown == -1)
+            {
                     MessageBox.Show("더 이상 찾는 문자열이 없습니다.", "메모장",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
-                }
+            }
                 this.txtNote.Select(updown, findWord.Length);
                 fWord = frm2.txtWord.Text;
                 this.txtNote.Focus();
                 this.txtNote.ScrollToCaret();
-            }
         }
         private void 다음찾기NToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -313,5 +316,7 @@ namespace A_Notepad
                 this.txtNote.Font = this.fdText.Font; // 텍스트 박스의 폰트 변경 
             }
         }
+
+        
     }
 }
