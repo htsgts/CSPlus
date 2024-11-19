@@ -1,0 +1,10 @@
+D:\Study_A\13th\sln_13\A_NetStat\bin\Debug\A_NetStat.exe.config
+D:\Study_A\13th\sln_13\A_NetStat\bin\Debug\A_NetStat.exe
+D:\Study_A\13th\sln_13\A_NetStat\bin\Debug\A_NetStat.pdb
+D:\Study_A\13th\sln_13\A_NetStat\obj\Debug\A_NetStat.csproj.AssemblyReference.cache
+D:\Study_A\13th\sln_13\A_NetStat\obj\Debug\A_NetStat.Form1.resources
+D:\Study_A\13th\sln_13\A_NetStat\obj\Debug\A_NetStat.Properties.Resources.resources
+D:\Study_A\13th\sln_13\A_NetStat\obj\Debug\A_NetStat.csproj.GenerateResource.cache
+D:\Study_A\13th\sln_13\A_NetStat\obj\Debug\A_NetStat.csproj.CoreCompileInputs.cache
+D:\Study_A\13th\sln_13\A_NetStat\obj\Debug\A_NetStat.exe
+D:\Study_A\13th\sln_13\A_NetStat\obj\Debug\A_NetStat.pdb
