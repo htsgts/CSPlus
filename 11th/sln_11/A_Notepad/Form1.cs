@@ -138,8 +138,8 @@ namespace A_Notepad
             if (this.txtNoteChange == true)
             {
                 var msg = this.Text + "파일의 내용이 변경되었습니다. \r\n 변경된 내용을 저장하시겠습니까 ? ";
-                var dlr = MessageBox.Show(msg, "메모장", MessageBoxButtons.YesNoCancel,
-                MessageBoxIcon.Warning);
+                var dlr = MessageBox.Show(msg, "메모장", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+                
                 if (dlr == DialogResult.Yes)
                 {
                     if (this.Text == "제목 없음")
@@ -260,6 +260,7 @@ namespace A_Notepad
                 str = str.ToUpper(); //저장된 본문을 대문자로 변환 
                 findWord = findWord.ToUpper();
             }
+
             if (frm2.rdb01.Checked)
             {
                 if (this.txtNote.SelectionStart != 0)
@@ -267,20 +268,21 @@ namespace A_Notepad
                     updown = str.LastIndexOf(findWord, this.txtNote.SelectionStart - 1);
                 }
             }
+
             else
             {
                 updown = str.IndexOf(findWord, this.txtNote.SelectionStart + this.txtNote.SelectionLength);
             }
+
             if (updown == -1)
             {
-                    MessageBox.Show("더 이상 찾는 문자열이 없습니다.", "메모장",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("더 이상 찾는 문자열이 없습니다.", "메모장", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
             }
-                this.txtNote.Select(updown, findWord.Length);
-                fWord = frm2.txtWord.Text;
-                this.txtNote.Focus();
-                this.txtNote.ScrollToCaret();
+            this.txtNote.Select(updown, findWord.Length);
+            fWord = frm2.txtWord.Text;
+            this.txtNote.Focus();
+            this.txtNote.ScrollToCaret();
         }
         private void 다음찾기NToolStripMenuItem_Click(object sender, EventArgs e)
         {

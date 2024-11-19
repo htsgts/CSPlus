@@ -157,7 +157,7 @@
         private System.Windows.Forms.Button btnCancel;
         internal System.Windows.Forms.CheckBox chOption;
         private System.Windows.Forms.GroupBox groupBox;
-        private System.Windows.Forms.RadioButton rdb02;
-        private System.Windows.Forms.RadioButton rdb01;
+        internal System.Windows.Forms.RadioButton rdb02;
+        internal System.Windows.Forms.RadioButton rdb01;
     }
 }

@@ -4,3 +4,8 @@ D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.Form2.resources
 D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.Properties.Resources.resources
 D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.csproj.GenerateResource.cache
 D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.csproj.CoreCompileInputs.cache
+D:\Study_A\11th\sln_11\A_Notepad\bin\Debug\A_Notepad.exe.config
+D:\Study_A\11th\sln_11\A_Notepad\bin\Debug\A_Notepad.exe
+D:\Study_A\11th\sln_11\A_Notepad\bin\Debug\A_Notepad.pdb
+D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.exe
+D:\Study_A\11th\sln_11\A_Notepad\obj\Debug\A_Notepad.pdb
