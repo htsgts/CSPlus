@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{4B698755-24DB-46DA-836C-54E8D629B825}|A_NetStat\\A_NetStat.csproj|solutionrelative:a_netstat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B698755-24DB-46DA-836C-54E8D629B825}|A_NetStat\\A_NetStat.csproj|d:\\study_a\\13th\\sln_13\\a_netstat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B698755-24DB-46DA-836C-54E8D629B825}|A_NetStat\\A_NetStat.csproj|D:\\Study_A\\13th\\sln_13\\a_netstat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B698755-24DB-46DA-836C-54E8D629B825}|A_NetStat\\A_NetStat.csproj|solutionrelative:a_netstat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,8 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Study_A\\13th\\sln_13\\A_NetStat\\Form1.cs",
               "RelativeDocumentMoniker": "A_NetStat\\Form1.cs",
-              "ToolTip": "D:\\Study_A\\13th\\sln_13\\A_NetStat\\Form1.cs*",
-              "RelativeToolTip": "A_NetStat\\Form1.cs*",
+              "ToolTip": "D:\\Study_A\\13th\\sln_13\\A_NetStat\\Form1.cs",
+              "RelativeToolTip": "A_NetStat\\Form1.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAswEoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T05:51:16.73Z",
@@ -47,8 +47,8 @@
               "Title": "Form1.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "D:\\Study_A\\13th\\sln_13\\A_NetStat\\Form1.cs",
               "RelativeDocumentMoniker": "A_NetStat\\Form1.cs",
-              "ToolTip": "D:\\Study_A\\13th\\sln_13\\A_NetStat\\Form1.cs [\uB514\uC790\uC778]*",
-              "RelativeToolTip": "A_NetStat\\Form1.cs [\uB514\uC790\uC778]*",
+              "ToolTip": "D:\\Study_A\\13th\\sln_13\\A_NetStat\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "A_NetStat\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T04:54:36.091Z",
               "EditorCaption": " [\uB514\uC790\uC778]"

@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.lvNetState = new System.Windows.Forms.ListView();
+            this.clhLocalIP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clhLocalPort = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clhRemoteIP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clhRemotePort = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clhState = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lblLocPort = new System.Windows.Forms.Label();
             this.lblForAdd = new System.Windows.Forms.Label();
             this.blForPort = new System.Windows.Forms.Label();
@@ -38,11 +43,6 @@
             this.btnCheck = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.sfdFile = new System.Windows.Forms.SaveFileDialog();
-            this.clhLocalIP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.clhLocalPort = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.clhRemoteIP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.clhRemotePort = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.clhState = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lvNetState
@@ -61,92 +61,6 @@
             this.lvNetState.TabIndex = 0;
             this.lvNetState.UseCompatibleStateImageBehavior = false;
             this.lvNetState.View = System.Windows.Forms.View.Details;
-            // 
-            // lblLocPort
-            // 
-            this.lblLocPort.AutoSize = true;
-            this.lblLocPort.BackColor = System.Drawing.Color.GreenYellow;
-            this.lblLocPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblLocPort.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblLocPort.Location = new System.Drawing.Point(12, 470);
-            this.lblLocPort.Name = "lblLocPort";
-            this.lblLocPort.Size = new System.Drawing.Size(71, 22);
-            this.lblLocPort.TabIndex = 1;
-            this.lblLocPort.Text = "로컬포트";
-            // 
-            // lblForAdd
-            // 
-            this.lblForAdd.AutoSize = true;
-            this.lblForAdd.BackColor = System.Drawing.Color.LightPink;
-            this.lblForAdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblForAdd.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblForAdd.Location = new System.Drawing.Point(163, 470);
-            this.lblForAdd.Name = "lblForAdd";
-            this.lblForAdd.Size = new System.Drawing.Size(71, 22);
-            this.lblForAdd.TabIndex = 2;
-            this.lblForAdd.Text = "외부주소";
-            // 
-            // blForPort
-            // 
-            this.blForPort.AutoSize = true;
-            this.blForPort.BackColor = System.Drawing.Color.Aqua;
-            this.blForPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.blForPort.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.blForPort.Location = new System.Drawing.Point(315, 469);
-            this.blForPort.Name = "blForPort";
-            this.blForPort.Size = new System.Drawing.Size(71, 22);
-            this.blForPort.TabIndex = 3;
-            this.blForPort.Text = "외부포트";
-            // 
-            // txtForAdd
-            // 
-            this.txtForAdd.Location = new System.Drawing.Point(240, 470);
-            this.txtForAdd.Name = "txtForAdd";
-            this.txtForAdd.Size = new System.Drawing.Size(68, 21);
-            this.txtForAdd.TabIndex = 5;
-            // 
-            // txtForPort
-            // 
-            this.txtForPort.Location = new System.Drawing.Point(392, 470);
-            this.txtForPort.Name = "txtForPort";
-            this.txtForPort.Size = new System.Drawing.Size(68, 21);
-            this.txtForPort.TabIndex = 6;
-            // 
-            // txtLocPort
-            // 
-            this.txtLocPort.Location = new System.Drawing.Point(89, 470);
-            this.txtLocPort.Name = "txtLocPort";
-            this.txtLocPort.Size = new System.Drawing.Size(68, 21);
-            this.txtLocPort.TabIndex = 4;
-            // 
-            // btnCheck
-            // 
-            this.btnCheck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnCheck.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnCheck.Location = new System.Drawing.Point(555, 464);
-            this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(83, 32);
-            this.btnCheck.TabIndex = 7;
-            this.btnCheck.Text = "체크";
-            this.btnCheck.UseVisualStyleBackColor = false;
-            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
-            // 
-            // btnSave
-            // 
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnSave.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnSave.Location = new System.Drawing.Point(466, 464);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(83, 32);
-            this.btnSave.TabIndex = 8;
-            this.btnSave.Text = "저장";
-            this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // sfdFile
-            // 
-            this.sfdFile.DefaultExt = "txt";
-            this.sfdFile.Filter = "텍스트 파일(*.txt)|*.txt";
             // 
             // clhLocalIP
             // 
@@ -177,11 +91,97 @@
             this.clhState.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.clhState.Width = 120;
             // 
+            // lblLocPort
+            // 
+            this.lblLocPort.AutoSize = true;
+            this.lblLocPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblLocPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblLocPort.Font = new System.Drawing.Font("휴먼둥근헤드라인", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblLocPort.Location = new System.Drawing.Point(12, 470);
+            this.lblLocPort.Name = "lblLocPort";
+            this.lblLocPort.Size = new System.Drawing.Size(69, 18);
+            this.lblLocPort.TabIndex = 1;
+            this.lblLocPort.Text = "로컬포트";
+            // 
+            // lblForAdd
+            // 
+            this.lblForAdd.AutoSize = true;
+            this.lblForAdd.BackColor = System.Drawing.Color.Magenta;
+            this.lblForAdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblForAdd.Font = new System.Drawing.Font("휴먼둥근헤드라인", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblForAdd.Location = new System.Drawing.Point(163, 470);
+            this.lblForAdd.Name = "lblForAdd";
+            this.lblForAdd.Size = new System.Drawing.Size(69, 18);
+            this.lblForAdd.TabIndex = 2;
+            this.lblForAdd.Text = "외부주소";
+            // 
+            // blForPort
+            // 
+            this.blForPort.AutoSize = true;
+            this.blForPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.blForPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.blForPort.Font = new System.Drawing.Font("휴먼둥근헤드라인", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.blForPort.Location = new System.Drawing.Point(315, 469);
+            this.blForPort.Name = "blForPort";
+            this.blForPort.Size = new System.Drawing.Size(69, 18);
+            this.blForPort.TabIndex = 3;
+            this.blForPort.Text = "외부포트";
+            // 
+            // txtForAdd
+            // 
+            this.txtForAdd.Location = new System.Drawing.Point(240, 470);
+            this.txtForAdd.Name = "txtForAdd";
+            this.txtForAdd.Size = new System.Drawing.Size(68, 21);
+            this.txtForAdd.TabIndex = 5;
+            // 
+            // txtForPort
+            // 
+            this.txtForPort.Location = new System.Drawing.Point(392, 470);
+            this.txtForPort.Name = "txtForPort";
+            this.txtForPort.Size = new System.Drawing.Size(68, 21);
+            this.txtForPort.TabIndex = 6;
+            // 
+            // txtLocPort
+            // 
+            this.txtLocPort.Location = new System.Drawing.Point(89, 470);
+            this.txtLocPort.Name = "txtLocPort";
+            this.txtLocPort.Size = new System.Drawing.Size(68, 21);
+            this.txtLocPort.TabIndex = 4;
+            // 
+            // btnCheck
+            // 
+            this.btnCheck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnCheck.Font = new System.Drawing.Font("휴먼둥근헤드라인", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnCheck.Location = new System.Drawing.Point(555, 464);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(83, 32);
+            this.btnCheck.TabIndex = 7;
+            this.btnCheck.Text = "체크";
+            this.btnCheck.UseVisualStyleBackColor = false;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
+            // 
+            // btnSave
+            // 
+            this.btnSave.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.btnSave.Font = new System.Drawing.Font("휴먼둥근헤드라인", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnSave.Location = new System.Drawing.Point(466, 464);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(83, 32);
+            this.btnSave.TabIndex = 8;
+            this.btnSave.Text = "저장";
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // sfdFile
+            // 
+            this.sfdFile.DefaultExt = "txt";
+            this.sfdFile.Filter = "텍스트 파일(*.txt)|*.txt";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 501);
+            this.ClientSize = new System.Drawing.Size(652, 505);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.txtForPort);
