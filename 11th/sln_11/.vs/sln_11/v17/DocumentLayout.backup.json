@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{AFDD5B40-7D0F-4A1B-BF41-FCC04B45B76F}|A_Notepad\\A_Notepad.csproj|solutionrelative:a_notepad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFDD5B40-7D0F-4A1B-BF41-FCC04B45B76F}|A_Notepad\\A_Notepad.csproj|D:\\Study_A\\11th\\sln_11\\a_notepad\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFDD5B40-7D0F-4A1B-BF41-FCC04B45B76F}|A_Notepad\\A_Notepad.csproj|solutionrelative:a_notepad\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFDD5B40-7D0F-4A1B-BF41-FCC04B45B76F}|A_Notepad\\A_Notepad.csproj|D:\\Study_A\\11th\\sln_11\\a_notepad\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFDD5B40-7D0F-4A1B-BF41-FCC04B45B76F}|A_Notepad\\A_Notepad.csproj|solutionrelative:a_notepad\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFDD5B40-7D0F-4A1B-BF41-FCC04B45B76F}|A_Notepad\\A_Notepad.csproj|D:\\Study_A\\11th\\sln_11\\a_notepad\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFDD5B40-7D0F-4A1B-BF41-FCC04B45B76F}|A_Notepad\\A_Notepad.csproj|solutionrelative:a_notepad\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFDD5B40-7D0F-4A1B-BF41-FCC04B45B76F}|A_Notepad\\A_Notepad.csproj|D:\\Study_A\\11th\\sln_11\\a_notepad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,15 +51,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\Study_A\\11th\\sln_11\\A_Notepad\\Form2.cs",
               "RelativeDocumentMoniker": "A_Notepad\\Form2.cs",
               "ToolTip": "D:\\Study_A\\11th\\sln_11\\A_Notepad\\Form2.cs",
               "RelativeToolTip": "A_Notepad\\Form2.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA8wCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAnwBYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:57:47.816Z"
+              "WhenOpened": "2024-11-19T02:57:47.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,14 +76,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "D:\\Study_A\\11th\\sln_11\\A_Notepad\\Form2.cs",
               "RelativeDocumentMoniker": "A_Notepad\\Form2.cs",
               "ToolTip": "D:\\Study_A\\11th\\sln_11\\A_Notepad\\Form2.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "A_Notepad\\Form2.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:45:37.536Z"
+              "WhenOpened": "2024-11-05T06:45:37.536Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
             }
           ]
         }
